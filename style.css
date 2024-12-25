@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(80deg, #D62976, #FEDA77, #4C69F5, #FFB800, #8A3FFC);
+    color: #FFFFFF;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.container {
+    width: 100%;
+    max-width: 1200px; /* Limite la largeur à 1200px sur les grands écrans */
+    margin: 0 auto;
+    padding: 20px;
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+/* Style de base du bouton */
+.sursaut-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Animation de sursaut */
+@keyframes sursaut {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px); /* Monte de 10px */
+    }
+    100% {
+        transform: translateY(0); /* Reviens à la position de départ */
+    }
+}
+
+/* Effet sur le survol du bouton */
+.sursaut-btn:hover {
+    background-color: #eb08df;
+}
+.titre{
+    animation: sursaut 1s infinite; /* Applique l'animation */
+}
+
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5em; /* Réduit la taille du titre sur mobile */
+    }
+
+    h3 {
+        font-size: 1em; /* Réduit la taille du texte sur mobile */
+    }
+
+    .container {
+        padding: 10px; /* Réduit les marges et paddings sur mobile */
+    }
+}

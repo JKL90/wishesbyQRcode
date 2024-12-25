@@ -1,0 +1,22 @@
+{
+    "name": "QR Wishes",
+    "short_name": "qr wishes",
+    "description": "Envoyez vos vœux et souhaits via des codes QR personnalisés",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "img/logoQrCode-removebg.webp",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/logoQrCode-removebg.webp",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
