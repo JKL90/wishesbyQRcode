@@ -1,3 +1,3 @@
-User-agent: *
-Allow: /
-Sitemap: https://wishes-by-qrcode.vercel.app/sitemap_wishes.xml
+user-agent: *
+allow: /
+sitemap: https://wishes-by-qrcode.vercel.app/sitemap_wishes.xml
